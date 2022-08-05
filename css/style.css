@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* .imgage-fruid{
+    max-width: 100%;
+    height: auto;
+} */
+.active{
+    color:#DC143B !important;
+}
+body{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+
+    
+
+}
+#header{}
+.container{
+    width: 1024px;
+    margin: 0 auto;    
+}
+.nabber{
+    background-color: black;
+    height: 100px;
+    
+
+}
+.navcontain{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.navleaf{
+    color: white;
+    padding-top: 20px;
+    
+}
+.navleaf h2{
+    color:white;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navleaf h2 a{
+    text-decoration: none;
+}
+.navleaf h2 span{
+    color: #DC143B;
+}
+.navleaf p{
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.navrigth{
+    padding-top: 40px;  
+}
+.navrigth ul{
+    display: flex;
+    
+}
+.navrigth ul li{
+   justify-content: space-between;
+   list-style: none;
+   display: inline-block;
+   margin-left: 16px;
+   
+}
+.navrigth ul li a{
+    font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+    color: white;
+    
+}
+.navrigth ul li a:hover{
+    color: #DC143B;
+}
+#ribbon{
+   
+    background-color: #DC143B;
+    height: 40px;   
+}
+.sale{
+    display: block;
+    text-align: center;
+    padding: 8px;
+}
+.sale p{
+    color: #000;
+    text-transform: uppercase;
+   
+}
+.sale p span{
+    color: white;
+    text-transform: lowercase;
+}
+
+/* ********
+*banner section css code here
+**** */
+#banneer{
+    height: 100vh;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bannerleft{
+    padding-top: 100px;
+    width: 400px;
+}
+.bannerleft h4{
+    color: #DC143B;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 800;
+    border-bottom: 2px solid #DC143B;
+    
+}
+.bannerleft h1{
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+   
+}
+.bannerleft h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.bannerleft p{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+.bannerleft a{
+    display: inline-block;
+    
+	
+   
+}
+.bannerleft a button{
+    margin-top: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: transparent;
+    color: #DC143B;
+    text-transform: uppercase; 
+    cursor: pointer; 
+    border: 2px solid #DC143B; 
+}
+.bannerleft a button:hover{
+    background: white;
+    color: #DC143B;
+    border-color: white;
+}
+/* *********
+*details section css code here
+********* */
+#details{
+    background-color: #F5F5F5;
+    padding: 100px 0px;
+}
+.dcard{
+   background-color: #DC143B;
+   display: flex;
+   justify-content: space-around;
+   border-radius: 20px;
+   padding: 50px 10px;
+}
+.card1 h3{
+    color: white;
+    font-size: 48px;
+}
+.card1 h4{
+    color: white;
+    font-size: 24px;
+}
+
+
+/* *********
+* category link section code here
+****** */
+#category{
+    padding: 50px 0px;
+    background-color: #F5F5F5;
+}
+.allcat h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+.Collection{
+    display: flex;
+    justify-content: space-between;
+}
+.item ul li{
+    list-style: none;
+    margin-bottom: 4px;
+}
+.item ul li h6{
+    color: #DC143B;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.item ul li a{
+    color: #999999;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.item ul li a:hover{
+    color: #DC143B;
+}
+
+/* **********
+*about section code here
+******** */
+#about{
+    background-color: #F5F5F5;
+    padding: 150px 0px;
+}
+.allabout{
+    display: flex;
+    justify-content: space-between;
+}
+.sibgleimage{}
+.sibgleimage img{
+    width: 600px;
+    height: auto;
+    position: absolute;
+    border-radius: 0px 0px 20px 0px;
+}
+.aboutimage{}
+.aboutimage img{
+    width: 600px;
+    height: auto;
+    position: relative;
+    left: 500px;
+    top: -100px;
+    border-radius: 20px 0px 0px 20px;
+   
+}
+.abcontent{
+   padding-left: 650px;
+   margin-top: -50px;  
+}
+.abcontent h2{
+    color: #000;
+    font-size: 48px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.abcontent p{
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.abcontent a{
+    display: inline-block;
+    
+}
+.abcontent a button{
+    margin-top: 10px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid black;
+
+}
+.abcontent a button:hover{
+    background-color: #DC143B;
+    color: white;
+    border: 1px solid #DC143B;
+}
+
+/* ********
+product section css code here
+********* */
+#product{
+    padding: 0px 0px 50px 0px;
+    background-color: #F5F5F5;
+}
+.procon h2{
+    font-size: 72px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.allpro{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.singlecard{
+    width: 220px;
+    background: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #888888;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.singlecard img{
+    width: 190px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.singlecard h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.singlecard p{  
+   color: #999999;
+   font-size: 16px;
+   margin-bottom: 20px;
+
+}
+.singlecard a{
+    display: inline-block;
+}
+.singlecard a button{
+    padding: 10px 20px;
+    font-size: 14px;
+    background: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #000;
+    border: 2px solid black;
+    margin-bottom: 20px;
+
+}
+.singlecard a button:hover{
+    background-color: #DC143B;
+    color: white;
+    border-color: #DC143B;
+    
+}
+/* *******
+*contact section css code here
+********** */
+#contact{
+    background-color: #F5F5F5;
+    padding: 50px 0px;
+}
+.allcontact{
+    display: flex;
+    justify-content: space-between;
+}
+.rigthcon{
+
+}
+
+.contactleft{
+ 
+}
+.contactleft img{
+    width: 550px;
+    height: auto;
+    position: absolute;
+    z-index: 999;
+    border-radius: 0px 30px 30px 0px;
+   
+    
+}
+.rigthcon img{
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    position: relative;
+    top: 150px;
+    left: 16px;
+    border-radius: 0px 0px 0px 30px;
+   
+    
+}
+.leftcon{
+    padding-top: 850px ;
+   
+}
+.leftcon h2{
+    color: #000;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.leftcon p{
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.leftcon a{
+    display: inline-block;
+}
+.leftcon a button{
+   
+    padding: 10px 50px;
+    font-size: 12px;
+    background: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 2px solid black;
+
+}
+.leftcon a button:hover{
+    background-color: #DC143B;
+    color: white;
+    border-color: #DC143B;
+
+}
+#newslater{
+    background-color: #F5F5F5;
+    padding: 50px 0px;
+}
+.dark2{
+    padding: 10px 0px;
+}
+.dark2 h3{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.dark2 input{
+    font-size: 20px;
+    padding: 5px;
+    margin-left: -20px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+.input button{
+    padding: 8px 28px;
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #000;
+
+}
+.input button:hover{
+    border-color: white;
+    background-color: white;
+    color: #000;
+
+}
+
+/* **********
+*footer section css code here
+*********** */
+#footer{
+    padding: 50px 0px;
+    background-color: #000;
+}
+.footcon{
+    padding: 50px 0px;
+    text-align: center;
+}
+.footcon h2{
+    color:white;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 20px;
+
+}
+.footcon h2 span{
+    color: #DC143B;
+}
+.footcon p{
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.footcon p a{
+    color: white;
+}
+.social a{
+    
+  
+}
+.social a i{
+ color: white;
+ font-size: 24px;
+ padding: 10px;
+    
+}
